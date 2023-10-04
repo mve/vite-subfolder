@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "dev": "vite",
+        "dev:hack": "watch 'vite build -m development --emptyOutDir' ../Modules/Filter",
+        "build": "vite build --emptyOutDir"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^4.3.4",
+        "laravel-vite-plugin": "^0.8.0",
+        "vite": "^4.4.9",
+        "watch": "^1.0.2"
+    },
+    "devDependencies": {
+        "sass": "^1.68.0"
+    }
+}
